@@ -14,6 +14,9 @@
   <tbody>
     <% @projects.each do |project| %>
       <tr>
+
+<li><%= link_to project.name, project %></li>
+
         <td><%= project.name %></td>
         <td><%= project.description %></td>
         <td><%= link_to 'Show', project %></td>

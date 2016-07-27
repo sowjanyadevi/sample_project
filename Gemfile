@@ -33,6 +33,7 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   gem 'rspec-rails', "~> 2.14"# Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'capybara', "2.1.0"
+  gem 'factory_girl_rails', '~> 4.2.1'
   gem 'byebug', platform: :mri
 end
 
